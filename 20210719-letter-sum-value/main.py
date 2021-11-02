@@ -60,7 +60,7 @@ def main():
     word_list = []
 
     def find_min_stat(min_letter_sum=None):
-        if letter_sum is None:
+        if min_letter_sum is None:
             sum_counts = Counter([s for (s, _) in unique_stats])
             return sum_counts.most_common()[-1][0]
         else:
