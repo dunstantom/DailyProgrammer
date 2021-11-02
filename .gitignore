@@ -1,2 +1,4 @@
 # Created by .ignore support plugin (hsz.mobi)
-/.idea/vcs.xml
+/.idea/
+/20210719-letter-sum-value/.pytest_cache/
+/20210719-letter-sum-value/venv/
